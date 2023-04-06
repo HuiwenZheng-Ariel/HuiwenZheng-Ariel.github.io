@@ -1,0 +1,27 @@
+// place your custom styles here
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog-hero {
+  .h1 {
+    @apply text-3xl sm:text-4xl #{!important};
+  }
+  .description {
+    @apply text-2xl xl:text-3xl font-semibold #{!important};
+  }
+}
+
+.project .image {
+  @apply rounded-full;
+}
+
+@layer base {
+  // Make iframe default to full width and responsive height
+  iframe {
+    @apply w-full max-h-screen h-80 lg:h-96 xl:h-[30rem] border-none;
+  }
+  * {
+    @apply font-serif;
+  }
+}
