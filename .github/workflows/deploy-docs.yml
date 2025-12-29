@@ -1,0 +1,57 @@
+name: 部署文档
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - main
+    paths-ignore:
+      - ".github/renovate.json"
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-n-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+
+      - name: 安装 bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: 安装依赖
+        run: bun install --frozen-lockfile
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: bun docs:build
+
+      - name: 设置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传文件
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "src/.vuepress/dist"
+
+      - name: 部署 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

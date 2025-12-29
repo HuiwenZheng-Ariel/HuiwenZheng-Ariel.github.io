@@ -1,0 +1,13 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@layer base {
+  /* Make iframe default to full width and responsive height */
+  iframe {
+    @apply w-full max-h-screen h-80 lg:h-96 xl:h-[30rem] border-none;
+  }
+  * {
+    @apply font-serif;
+  }
+}
