@@ -16,7 +16,7 @@
     "@vuepress/plugin-docsearch": "2.0.0-rc.121",
     "@vuepress/plugin-register-components": "2.0.0-rc.118",
     "postcss": "8.5.6",
-    "sass-embedded": "1.97.1",
+    "sass-embedded": "1.97.2",
     "tailwindcss": "4.1.18",
     "vue": "3.5.26",
     "vuepress": "2.0.0-rc.26",
