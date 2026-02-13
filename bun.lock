@@ -8,7 +8,7 @@
         "@tailwindcss/postcss": "4.1.18",
         "@vuepress/bundler-vite": "2.0.0-rc.26",
         "@vuepress/plugin-docsearch": "2.0.0-rc.123",
-        "@vuepress/plugin-register-components": "2.0.0-rc.122",
+        "@vuepress/plugin-register-components": "2.0.0-rc.123",
         "postcss": "8.5.6",
         "sass-embedded": "1.97.3",
         "tailwindcss": "4.1.18",
@@ -421,7 +421,7 @@
 
     "@vuepress/plugin-redirect": ["@vuepress/plugin-redirect@2.0.0-rc.121", "", { "dependencies": { "@vuepress/helper": "2.0.0-rc.121", "@vueuse/core": "14.1.0", "commander": "14.0.2", "vue": "3.5.26" }, "peerDependencies": { "vuepress": "2.0.0-rc.26" }, "bin": { "vp-redirect": "lib/cli/index.js" } }, "sha512-47Cke3dLmdwOmiCQGDoQOk6G07PSVkl5+QE6Kzq7ZT4GPrH96DeOs3Q3f2+JoYSmpVldRBADnsQaojp0fRUcJg=="],
 
-    "@vuepress/plugin-register-components": ["@vuepress/plugin-register-components@2.0.0-rc.122", "", { "dependencies": { "chokidar": "^5.0.0", "picomatch": "^4.0.3" }, "peerDependencies": { "vuepress": "2.0.0-rc.26" } }, "sha512-TUjDNHYt0k00OV4va3Vx9D9i/ayCt9GZolOHVVuaGKMbrY9sp30wOapvd2edFglL7Shfe4YOWPT/a53GRaXttQ=="],
+    "@vuepress/plugin-register-components": ["@vuepress/plugin-register-components@2.0.0-rc.123", "", { "dependencies": { "chokidar": "^5.0.0", "picomatch": "^4.0.3" }, "peerDependencies": { "vuepress": "2.0.0-rc.26" } }, "sha512-kOA7FiC1vgonZlJ2xUbB2arU23OzO4C6tYt+GBkVcKidLiJvsHx4v10rEUdvyVUUuWClJtkHZC7przYWz62Epw=="],
 
     "@vuepress/plugin-rtl": ["@vuepress/plugin-rtl@2.0.0-rc.121", "", { "dependencies": { "@vuepress/helper": "2.0.0-rc.121", "@vueuse/core": "14.1.0", "vue": "3.5.26" }, "peerDependencies": { "vuepress": "2.0.0-rc.26" } }, "sha512-EeNyX8GnTQR00ubowSlWLdSGbUaKvy8Ul7mYTUuRTAVWvqN7LkwRCquhlb3/9WtnTsRO2L0UZ+KMsVGYaoPOMQ=="],
 
