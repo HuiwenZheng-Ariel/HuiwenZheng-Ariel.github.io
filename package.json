@@ -11,13 +11,13 @@
     "docs:update-package": "bunx vp-update"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "4.2.0",
+    "@tailwindcss/postcss": "4.2.1",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/plugin-docsearch": "2.0.0-rc.123",
     "@vuepress/plugin-register-components": "2.0.0-rc.123",
     "postcss": "8.5.6",
     "sass-embedded": "1.97.3",
-    "tailwindcss": "4.2.0",
+    "tailwindcss": "4.2.1",
     "vue": "3.5.28",
     "vuepress": "2.0.0-rc.26",
     "vuepress-theme-hope": "2.0.0-rc.102"
