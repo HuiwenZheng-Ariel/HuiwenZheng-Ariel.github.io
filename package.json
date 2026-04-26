@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.2.4",
-    "@vuepress/bundler-vite": "2.0.0-rc.27",
+    "@vuepress/bundler-vite": "2.0.0-rc.28",
     "@vuepress/plugin-docsearch": "2.0.0-rc.128",
     "@vuepress/plugin-register-components": "2.0.0-rc.126",
     "postcss": "8.5.12",
