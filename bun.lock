@@ -7,7 +7,7 @@
       "devDependencies": {
         "@tailwindcss/postcss": "4.3.2",
         "@vuepress/bundler-vite": "2.0.0-rc.27",
-        "@vuepress/plugin-docsearch": "2.0.0-rc.131",
+        "@vuepress/plugin-docsearch": "2.0.0-rc.132",
         "@vuepress/plugin-register-components": "2.0.0-rc.126",
         "postcss": "8.5.16",
         "sass-embedded": "1.100.0",
@@ -393,7 +393,7 @@
 
     "@vuepress/plugin-copyright": ["@vuepress/plugin-copyright@2.0.0-rc.130", "", { "dependencies": { "@vuepress/helper": "2.0.0-rc.130", "@vueuse/core": "^14.3.0", "vue": "^3.5.34" }, "peerDependencies": { "vuepress": "2.0.0-rc.30" } }, "sha512-Sgq8voS4qTg5Dmfq8LQL5EUyyzcnyY+OqFJegNjMMf6o7Aa3JXiXaPcTPKBe+NRTU21d4CwLO8OaojN7KjvI3A=="],
 
-    "@vuepress/plugin-docsearch": ["@vuepress/plugin-docsearch@2.0.0-rc.131", "", { "dependencies": { "@docsearch/css": "^4.6.3", "@docsearch/js": "^4.6.3", "@vuepress/helper": "2.0.0-rc.131", "@vueuse/core": "^14.3.0", "ts-debounce": "^5.0.1", "vue": "^3.5.39" }, "peerDependencies": { "vuepress": "2.0.0-rc.30" } }, "sha512-JPZwpoOLvebAfJt22R7sADT3cLtnmS8uMH9uJaHxocCgd6X/fcydKjhE4lOQua4Y2nqeOrkdDThryFi0dcToBg=="],
+    "@vuepress/plugin-docsearch": ["@vuepress/plugin-docsearch@2.0.0-rc.132", "", { "dependencies": { "@docsearch/css": "^4.6.3", "@docsearch/js": "^4.6.3", "@vuepress/helper": "2.0.0-rc.131", "@vueuse/core": "^14.3.0", "ts-debounce": "^5.0.1", "vue": "^3.5.39" }, "peerDependencies": { "vuepress": "2.0.0-rc.30" } }, "sha512-DCEhR6yq7cOe7yhV/VkXAZgwdOPWA1fLmvbLW2vjJEaE7noGauN3NEh2XMPlbNlxVsnDnUsgBAuQBlXt26sNDA=="],
 
     "@vuepress/plugin-git": ["@vuepress/plugin-git@2.0.0-rc.130", "", { "dependencies": { "@vuepress/helper": "2.0.0-rc.130", "@vueuse/core": "^14.3.0", "rehype-parse": "^9.0.1", "rehype-sanitize": "^6.0.0", "rehype-stringify": "^10.0.1", "unified": "^11.0.5", "vue": "^3.5.34" }, "peerDependencies": { "vuepress": "2.0.0-rc.30" } }, "sha512-0gSSiCR6Bv0b5ZB2IsO3EqlJxrblYIP0+ltadx2IkdFPsObvgaMKyu+VjRQ5NSuXTlcdJGGOatuRWckdfYtkZw=="],
 
