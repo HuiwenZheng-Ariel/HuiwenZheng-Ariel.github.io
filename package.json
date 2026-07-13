@@ -15,7 +15,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.27",
     "@vuepress/plugin-docsearch": "2.0.0-rc.132",
     "@vuepress/plugin-register-components": "2.0.0-rc.126",
-    "postcss": "8.5.17",
+    "postcss": "8.5.18",
     "sass-embedded": "1.100.0",
     "tailwindcss": "4.3.2",
     "vue": "3.5.39",
